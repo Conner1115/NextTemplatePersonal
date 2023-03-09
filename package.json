@@ -1,0 +1,40 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.{js,ts,tsx}\""
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "date-fns": "^2.29.3",
+    "express-rate-limit": "^6.7.0",
+    "isomorphic-dompurify": "^1.1.0",
+    "jotai": "^2.0.3",
+    "marked": "^4.2.12",
+    "next": "12.2.0",
+    "next-connect": "^0.13.0",
+    "nextjs-progressbar": "^0.0.16",
+    "node-fetch": "^3.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-feather": "^2.0.10",
+    "react-twemoji": "^0.5.0",
+    "sanitize-html": "^2.10.0",
+    "styled-components": "^5.3.8"
+  },
+  "devDependencies": {
+    "@types/node": "18.0.1",
+    "@types/react": "18.0.14",
+    "@types/react-dom": "18.0.5",
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.0",
+    "prettier": "^2.8.4",
+    "typescript": "4.7.4"
+  }
+}
